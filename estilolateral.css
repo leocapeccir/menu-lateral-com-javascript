@@ -1,0 +1,64 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    display: block;
+    padding: 12px 10px 12px 32px;
+}
+
+a:hover{
+    background: white;
+    color: brown;
+    
+}
+
+header {
+    background: brown;
+    padding: 14px;
+}
+
+.botao__abre{
+    color: white;
+    font-size: 1.3rem;
+}
+
+nav{
+
+    height: 100%;
+    width: 0px;
+    background: brown;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: width .3s;
+}
+
+main{
+    padding: 10px;
+    margin-top: 30px;
+    transition: margin-left 0.3s;
+}
+
+
+.menu__abre{
+    width: 300px;
+}
+
+.menu__fecha{
+    width: 0;
+}
+
+.menu__conteudo--acompanha{
+    margin-left: 310px;
+}
